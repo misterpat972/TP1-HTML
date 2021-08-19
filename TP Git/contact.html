@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <img src="Image/banière.jpg" alt="mabanière">
+        <h1>Mon premier site</h1>
+       
+        <nav>
+           <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li>Blogs</li>
+            <li>Galeries</li>
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+       </nav>
+    </header>
+
+    <section>
+        <form action="maPage.php" method="post">
+            <fieldset>
+                <div>
+                <label for="nom">nom <span>*</span></label>    
+                <input type="text" name="nom" id="nom" placeholder="Tapez votre nom" maxlength="10">
+                </div>
+
+                <div>
+                    <label for="adresse">E-mail <span>*</span></label>
+                    <input type="email" name="mail" id="adresse" placeholder="Tapez votre adresse E-mail">
+                </div>
+
+                <div>
+                    <label for="avis">Donnez votre avis</label>                     
+                    <textarea name="avis" id="avis" cols="70" rows="10" placeholder="donnez votre avis"></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="copie" id="copie" checked><label for="copie">Envoyer une copie</label>
+
+                </div>
+
+                <div>
+                    <input type="submit" value="Exécutez">
+                    <input type="reset" value="reset">
+                </div>
+
+            </fieldset>
+
+
+
+        </form>
+
+
+
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.google.com/search?q=image&tbm=isch&hl=en&chips=q:image,g_1:nature:74jpL7KyaHI%3D,g_1:wallpaper:K_db2hFjxbA%3D&sa=X&ved=2ahUKEwilsOSS77zyAhUQsxoKHYLNBXYQ4lYoAXoECAEQFQ&biw=952&bih=517#imgrc=PTQGU6Dz2RVDgM">fictif1</a></li>
+           <li><a href="https://forum.alsacreations.com/topic-4-5683-1-Liste-a-puce--enlever-puce-et-gerer-les-espaces.html">fictif2</a></li>
+         
+        </ul>
+         </footer>   
+
+    
+</body>
+</html>
